@@ -1,0 +1,27 @@
+# Env files (NUNCA commitar)
+.env
+.env.local
+.env.*.local
+!.env.template
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Backups locais
+*.bak
+*.bak.*
+
+# Customizações cliente-específicas
+customizations/
+client-overrides/
